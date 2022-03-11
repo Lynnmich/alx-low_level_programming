@@ -3,7 +3,7 @@
 /**
 *main - print the letters of the alphabet
 *
-*Description: print the letters in lower then uppercase
+*Description: print the letters of the alphabet in lower then in uppercase
 *
 *Return: Always 0 (Success)
 */
@@ -23,7 +23,7 @@ i++;
 
 while (j < 91)
 {
-puchar(j);
+putchar(j);
 j++;
 }
 
