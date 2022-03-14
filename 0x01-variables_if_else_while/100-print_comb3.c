@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main -print double digit combos
+*main - print double digit combos
 *
 *Description: print double digit combos
 *
@@ -10,7 +10,7 @@
 
 int main(void)
 {
-int i, j:
+int i, j;
 
 i = 48;
 j = 48;
@@ -30,6 +30,7 @@ putchar(32);
 }
 j++;
 }
+
 i++;
 }
 
