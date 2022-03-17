@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - fizz_buzz
+*main - Principle function.
 *
 *Return: 0.
 */
