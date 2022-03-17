@@ -1,31 +1,35 @@
 #include "main.h"
-
 /**
-*print_triangle - function that prints a triangle.
-*
-*@size: Where size is the size of the triangle.
-*
-*Return: 0.
-*/
-
+ * print_triangle - function
+ *
+ * @size: parameter
+ *
+ * Return: return value
+ */
 void print_triangle(int size)
 {
-int row, column, k;
+	int col = 0;
+	int row = 0;
+	int t;
 
-if (size <= 0)
-{
-_putchar('\n');
-}
-else
-{
-for (row = 0; row < size; row++)
-{
-for (column = size - row; column > 1; column--)
-_putchar(' ');
-for (k = 0; k<= row; k++)
-_putchar('#');
-
-_putchar('\n');
-}
-}
+	if (size > 0)
+	{
+		while (row < size)
+		{
+			t = size - row - 1;
+			while (col < size)
+			{
+				if (col < t)
+					_putchar(32);
+				else
+					_putchar(35);
+				col++;
+			}
+			_putchar(10);
+			col = 0;
+			row++;
+		}
+	}
+	else
+		_putchar(10);
 }
