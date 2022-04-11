@@ -9,12 +9,12 @@
 
 int _strlen(char *s)
 {
-        int x;
+	int x;
 
-        x = 0;
-        while (s[x] != '\0')
-                x++;
-        return (x);
+	x = 0;
+	while (s[x] != '\0')
+		x++;
+	return (x);
 }
 
 /**
@@ -28,55 +28,55 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-        int len, i;
+	int len, i;
 
-        len = 0;
+	len = 0;
 
-        while (src[len] != '\0')
-        {
-                len++;
-        }
+	while (src[len] != '\0')
+	{
+		len++;
+	}
 
-        for (i = 0; i < len; i++)
-        {
-                dest[i] = src[i];
-        }
-        dest[i] = '\0';
+	for (i = 0; i < len; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
 
-        return (dest);
+	return (dest);
 }
 
 /**
- * new_dog - creates a new dog
+*new_dog - creates a new dog
 *@name: dog's name
 *@age: dog's age
 *@owner: owner's name
- *
+*
  * Return: return struct pointer
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-        struct dog *n;
+	struct dog *n;
 
-        n = malloc(sizeof(struct dog));
-        if (n == NULL)
-                return (NULL);
+	n = malloc(sizeof(struct dog));
+	if (n == NULL)
+		return (NULL);
 
-        n->name = malloc(_strlen(name) + 1);
-        if (n->name == NULL)
-        {
-                free(n);
-                return (NULL);
-        }
-        n->age = age;
-        n->owner = malloc(_strlen(owner) + 1);
-        if (n->owner == NULL)
-        {
-                free(n);
-                free(n->name);
-                return (NULL);
-        }
-        _strcpy(n->name, name);
-        _strcpy(n->owner, owner);
-        return (n);
+	n->name = malloc(_strlen(name) + 1);
+	if (n->name == NULL)
+	{
+		free(n);
+		return (NULL);
+	}
+	n->age = age;
+	n->owner = malloc(_strlen(owner) + 1);
+	if (n->owner == NULL)
+	{
+		free(n);
+		free(n->name);
+		return (NULL);
+	}
+	_strcpy(n->name, name);
+	_strcpy(n->owner, owner);
+	return (n);
 }
