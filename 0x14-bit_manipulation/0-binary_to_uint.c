@@ -46,8 +46,7 @@ unsigned int binary_to_uint(const char *b)
 	}
 
 	n = strlen(b) - 1;
-
-/*Perform the operation to find the sum*/
+/*perform the operation to find the sum*/
 for (x = 0, i = 0; n >= x; n--)
 	{
 		switch (b[i])
