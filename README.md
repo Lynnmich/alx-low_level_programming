@@ -4,7 +4,7 @@
 
 ### Hatching Out
 
-#### C Programming
+***C Programming***
 
 **Hello, World:** Introduced the basics of C programming with a "Hello, World!" program.
 
@@ -48,7 +48,7 @@
 
 **Makefiles:** Covered the creation and usage of Makefiles for building projects.
 
-#### Data Structures and Algorithms
+***Data Structures and Algorithms***
 
 **Singly linked lists:** Implemented and manipulated singly linked lists in C.
 
@@ -66,7 +66,7 @@
 
 **Search Algorithms:** Covered different search algorithms for efficient data retrieval.
 
-#### Linux and Unix System Programming
+***Linux and Unix System Programming***
 
 **File I/O:** Explored file input/output operations in C.
 
