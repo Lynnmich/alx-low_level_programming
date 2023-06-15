@@ -1,6 +1,6 @@
 # Low-Level Programming & Algorithm Project Overview
 
-### The Low-Level Programming & Algorithm repository consisted of several projects that focused on low-level programming concepts and algorithmic problem-solving. These projects provided participants with a deep understanding of programming in the C language, data structures, algorithms, and system programming in Linux and Unix environments. Here's an overview of the projects undertaken:
+### The Low-Level Programming & Algorithm repository consisted of several projects that focused on low-level programming concepts and algorithmic problem-solving. These projects provided a deep understanding of programming in the C language, data structures, algorithms, and system programming in Linux and Unix environments. Here's an overview of the projects undertaken:
 
 ### Hatching Out
 
@@ -71,5 +71,3 @@
 **File I/O:** Explored file input/output operations in C.
 
 **Simple Shell:** Implemented a simple Unix shell in C.
-
-#### Each project provided valuable hands-on experience and a deeper understanding of low-level programming, algorithms, and system programming concepts.
